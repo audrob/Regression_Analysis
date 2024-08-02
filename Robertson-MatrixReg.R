@@ -7,11 +7,11 @@ library(tidyverse)
 library(MethComp)
 
 
-# Question 1: Perform Deming Regression on HW2_data1.txt + Regular regression
+# Question 1: Perform Deming Regression on data1.txt + Regular regression
 
 ## import data file
 
-data1 <- read.table("C:/Users/arobe/OneDrive/Desktop/DataSP24/HW2_data1.txt", 
+data1 <- read.table("path\\data1.txt", 
                     header=T)
 summary(data1)
 
@@ -78,7 +78,7 @@ solve(B)
 
 ## import data file
 
-data2 <- read.table("C:/Users/arobe/OneDrive/Desktop/DataSP24/HW2_data2.txt", 
+data2 <- read.table("path\\data2.txt", 
                     header=T)
 summary(data2)
 
