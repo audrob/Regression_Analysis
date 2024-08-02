@@ -1,4 +1,4 @@
-# Homework 1 Regression Analysis
+# Lack of Fit and Pure Errors
 
 # Declare Libs
 library(car)
@@ -7,7 +7,7 @@ library(tidyverse)
 
 # Import data file
 
-diabetes <- read.table("C:/Users/arobe/OneDrive/Desktop/DataSP24/HW1_data.txt", header=T)
+diabetes <- read.table("path\\data.txt", header=T)
 summary(diabetes)
 
 # Simple linear regression between hba1c and fbg for diabetics
